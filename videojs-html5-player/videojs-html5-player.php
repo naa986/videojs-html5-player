@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Videojs HTML5 Player
-Version: 1.1.0
+Version: 1.1.1
 Plugin URI: http://wphowto.net/videojs-html5-player-for-wordpress-757
 Author: naa986
 Author URI: http://wphowto.net/
@@ -17,7 +17,7 @@ if (!class_exists('VIDEOJS_HTML5_PLAYER')) {
 
     class VIDEOJS_HTML5_PLAYER {
 
-        var $plugin_version = '1.1.0';
+        var $plugin_version = '1.1.1';
 
         function __construct() {
             define('VIDEOJS_HTML5_PLAYER_VERSION', $this->plugin_version);
@@ -167,6 +167,8 @@ function videojs_html5_video_embed_handler($atts) {
     if(!empty($poster)) {
         $poster = ' poster="'.$poster.'"';
     }
+    //playsinline
+    $playsinline = ' playsinline';
     $player = "videojs" . uniqid();
     //custom style
     $style = '';   
@@ -181,7 +183,7 @@ EOT;
         
     }
     $output = <<<EOT
-    <video id="$player" class="video-js vjs-default-skin"{$controls}{$preload}{$autoplay}{$loop}{$muted}{$poster} data-setup='{"fluid": true}'>
+    <video id="$player" class="video-js vjs-default-skin"{$controls}{$preload}{$autoplay}{$loop}{$muted}{$poster}{$playsinline} data-setup='{"fluid": true}'>
         $src
     </video>
     $style

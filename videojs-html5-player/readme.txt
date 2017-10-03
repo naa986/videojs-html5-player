@@ -4,7 +4,7 @@ Donate link: https://wphowto.net/
 Tags: video, wpvideo, flash, html5, iPad, iphone, ipod, mobile, playlists, embed video, videojs, flash player, player, video player, embed, lightweight, minimal, myvideo, responsive  
 Requires at least: 4.2
 Tested up to: 4.8
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -130,6 +130,10 @@ For screenshots please visit the [Videojs HTML5 Player](https://wphowto.net/vide
 none
 
 == Changelog ==
+
+= 1.1.1 =
+
+* Added support for playsinline attribute which allows a video to play inline on iOS (the video will not automatically enter fullscreen mode when playback begins).
 
 = 1.1.0 =
 
