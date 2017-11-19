@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Videojs HTML5 Player
-Version: 1.1.1
+Version: 1.1.2
 Plugin URI: http://wphowto.net/videojs-html5-player-for-wordpress-757
 Author: naa986
 Author URI: http://wphowto.net/
@@ -17,7 +17,8 @@ if (!class_exists('VIDEOJS_HTML5_PLAYER')) {
 
     class VIDEOJS_HTML5_PLAYER {
 
-        var $plugin_version = '1.1.1';
+        var $plugin_version = '1.1.2';
+        var $videojs_version = '5.0.0';
 
         function __construct() {
             define('VIDEOJS_HTML5_PLAYER_VERSION', $this->plugin_version);
@@ -82,12 +83,14 @@ function videojs_html5_player_enqueue_scripts() {
     if (!is_admin()) {
         $plugin_url = plugins_url('', __FILE__);
         wp_enqueue_script('jquery');
-        wp_register_script('videojs', $plugin_url . '/videojs/video.js', array('jquery'), VIDEOJS_HTML5_PLAYER_VERSION, true);
-        wp_enqueue_script('videojs');
-        wp_register_style('videojs', $plugin_url . '/videojs/video-js.css');
+        wp_register_style('videojs', $plugin_url . '/videojs/video-js.min.css');
         wp_enqueue_style('videojs');
+        /*
         wp_register_style('videojs-style', $plugin_url . '/videojs-html5-player.css');
         wp_enqueue_style('videojs-style');
+        */
+        wp_register_script('videojs', $plugin_url . '/videojs/video.min.js', array('jquery'), VIDEOJS_HTML5_PLAYER_VERSION, true);
+        wp_enqueue_script('videojs');
     }
 }
 
