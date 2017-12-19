@@ -14,6 +14,10 @@ Embed video file beautifully in WordPress using Videojs HTML5 Player. Embed HTML
 
 [Videojs HTML5 Player](https://wphowto.net/videojs-html5-player-for-wordpress-757) is a user-friendly plugin that supports video playback on desktops and mobile devices. It makes super easy for you to embed both self-hosted video files or video files that are externally hosted using Videojs library.
 
+= Requirements =
+
+* A self-hosted website running on [WordPress hosting](https://wphowto.net/best-cheap-wordpress-hosting-1689)
+
 = Videojs HTML5 Player Features =
 
 * Embed MP4 video files into a post/page or anywhere on your WordPress site
@@ -124,7 +128,7 @@ Yes.
 
 == Screenshots ==
 
-For screenshots please visit the [Videojs HTML5 Player](https://wphowto.net/videojs-html5-player-for-wordpress-757) plugin page
+1. Videojs Player Demo
 
 == Upgrade Notice ==
 none

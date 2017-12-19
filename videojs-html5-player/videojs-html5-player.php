@@ -2,9 +2,9 @@
 /*
 Plugin Name: Videojs HTML5 Player
 Version: 1.1.2
-Plugin URI: http://wphowto.net/videojs-html5-player-for-wordpress-757
+Plugin URI: https://wphowto.net/videojs-html5-player-for-wordpress-757
 Author: naa986
-Author URI: http://wphowto.net/
+Author URI: https://wphowto.net/
 Description: Easily embed videos using videojs html5 player
 Text Domain: videojs-html5-player
 Domain Path: /languages
@@ -65,7 +65,7 @@ if (!class_exists('VIDEOJS_HTML5_PLAYER')) {
         }
 
         function options_page() {
-            $url = "http://wphowto.net/videojs-html5-player-for-wordpress-757";
+            $url = "https://wphowto.net/videojs-html5-player-for-wordpress-757";
             $link_text = sprintf(wp_kses(__('For detailed documentation please visit the plugin homepage <a target="_blank" href="%s">here</a>.', 'videojs-html5-player'), array('a' => array('href' => array(), 'target' => array()))), esc_url($url));
             ?>
             <div class="wrap"><h2>Videojs HTML5 Player - v<?php echo $this->plugin_version; ?></h2>
