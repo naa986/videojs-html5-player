@@ -4,7 +4,7 @@ Donate link: https://wphowto.net/
 Tags: video, wpvideo, flash, html5, iPad, iphone, ipod, mobile, playlists, embed video, videojs, flash player, player, video player, embed, lightweight, minimal, myvideo, responsive  
 Requires at least: 4.2
 Tested up to: 4.9
-Stable tag: 1.1.2
+Stable tag: 1.1.3
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -134,6 +134,10 @@ Yes.
 none
 
 == Changelog ==
+
+= 1.1.3 =
+
+* Videojs play button is now centered by default.
 
 = 1.1.2 =
 
