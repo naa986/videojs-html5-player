@@ -1,9 +1,9 @@
 === Videojs HTML5 Player ===
 Contributors: naa986
 Donate link: https://wphowto.net/
-Tags: video, wpvideo, flash, html5, iPad, iphone, ipod, mobile, playlists, embed video, videojs, flash player, player, video player, embed, lightweight, minimal, myvideo, responsive  
+Tags: videojs, video, player, embed, html5
 Requires at least: 4.2
-Tested up to: 5.0
+Tested up to: 5.1
 Stable tag: 1.1.3
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
