@@ -3,7 +3,7 @@ Contributors: naa986
 Donate link: https://wphowto.net/
 Tags: videojs, video, player, embed, html5
 Requires at least: 4.2
-Tested up to: 5.1
+Tested up to: 5.2
 Stable tag: 1.1.3
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
