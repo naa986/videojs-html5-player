@@ -4,7 +4,7 @@ Donate link: https://wphowto.net/
 Tags: videojs, video, player, embed, html5
 Requires at least: 4.2
 Tested up to: 6.0
-Stable tag: 1.1.6
+Stable tag: 1.1.7
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -140,6 +140,9 @@ MP4, WebM and Ogv.
 none
 
 == Changelog ==
+
+= 1.1.7 =
+* Added support for Video.js HTTP Streaming.
 
 = 1.1.6 =
 * Updated Video.js to 7.14.3.
