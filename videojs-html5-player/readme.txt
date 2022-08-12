@@ -101,7 +101,7 @@ Causes the video file to loop to beginning when finished and automatically conti
 Specifies that the audio output of the video should be muted.
 
 `[videojs_video url="https://example.com/wp-content/uploads/videos/myvid.mp4" muted="true"]`
-
+<br>
 === Video.js HTTP Streaming ===
 
 The plugin supports the m3u8 file format that can be used for Video.js HTTP Streaming. It allows you to play HLS, DASH, and other HTTP streaming protocols with Video.js, even where they are not natively supported.
