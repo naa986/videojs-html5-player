@@ -3,7 +3,7 @@ Contributors: naa986
 Donate link: https://wphowto.net/
 Tags: videojs, video, player, embed, html5
 Requires at least: 4.2
-Tested up to: 6.3
+Tested up to: 6.4
 Stable tag: 1.1.10
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -20,13 +20,11 @@ https://www.youtube.com/watch?v=uF-V6qGvcu8&rel=0
 
 * Embed MP4 video files into a post/page or anywhere on your WordPress site
 * Embed responsive videos for a better user experience while viewing from a mobile device
-* Embed HTML5 videos which are compatible with all major browsers
+* Embed HTML5 videos which are compatible with modern browsers
 * Embed videos with poster images
 * Embed videos using videojs player
-* Automatically play a video when the page is rendered
+* Automatically play a video when the page is rendered if the device and browser support it
 * Embed videos uploaded to your WordPress media library using direct links in the shortcode
-* No setup required, simply install and start embedding videos
-* Lightweight and compatible with the latest version of WordPress
 * Clean and sleek player with no watermark
 * fallbacks for other HTML5-supported filetypes (WebM, Ogv)
 * HTTP streaming
@@ -127,26 +125,6 @@ For detailed documentation please visit the [Videojs HTML5 Player](https://wphow
 = What is Video.js? =
 
 Video.js is a web video player built from the ground up for an HTML5 world. It supports HTML5 video playback on desktop and mobile devices.
-
-= How do I run Video.js? =
-
-Install the Video.js plugin and add a shortcode to your WordPress post/page.
-
-= Is Video.js open source? =
-
-Yes.
-
-= Does Video.js plugin support HLS? =
-
-Yes.
-
-= Does Video.js plugin support HTTP streaming? =
-
-Yes.
-
-= What media formats does Video.js plugin support? =
-
-MP4, WebM, Ogv and M3U8.
 
 == Screenshots ==
 
