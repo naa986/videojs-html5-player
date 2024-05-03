@@ -4,7 +4,7 @@ Donate link: https://wphowto.net/
 Tags: videojs, video, player, embed, html5
 Requires at least: 4.2
 Tested up to: 6.5
-Stable tag: 1.1.10
+Stable tag: 1.1.11
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -32,6 +32,7 @@ https://www.youtube.com/watch?v=uF-V6qGvcu8&rel=0
 === Video.js HTML5 Player Add-ons ===
 
 * [Disable Right Click](https://wphowto.net/videojs-html5-player-for-wordpress-757)
+* [Themes](https://wphowto.net/videojs-player-plugin-themes-7042)
 
 === How to Use Video.js HTML5 Player ===
 
@@ -134,6 +135,9 @@ Video.js is a web video player built from the ground up for an HTML5 world. It s
 none
 
 == Changelog ==
+
+= 1.1.11 =
+* Added support for Themes add-on.
 
 = 1.1.10 =
 * Additional check for the settings link.

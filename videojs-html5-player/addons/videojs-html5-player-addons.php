@@ -16,6 +16,14 @@ function videojs_html5_player_display_addons()
     );
     array_push($addons_data, $addon_1);
     
+    $addon_2 = array(
+        'name' => 'Themes',
+        'thumbnail' => VIDEOJS_HTML5_PLAYER_URL.'/addons/images/videojs-themes.png',
+        'description' => 'Themes for Video.js player',
+        'page_url' => 'https://wphowto.net/videojs-player-plugin-themes-7042',
+    );
+    array_push($addons_data, $addon_2);
+    
     //Display the list
     foreach ($addons_data as $addon) {
         ?>

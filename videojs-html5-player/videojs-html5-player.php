@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Videojs HTML5 Player
-Version: 1.1.10
+Version: 1.1.11
 Plugin URI: https://wphowto.net/videojs-html5-player-for-wordpress-757
 Author: naa986
 Author URI: https://wphowto.net/
@@ -17,7 +17,7 @@ if (!class_exists('VIDEOJS_HTML5_PLAYER')) {
 
     class VIDEOJS_HTML5_PLAYER {
 
-        var $plugin_version = '1.1.10';
+        var $plugin_version = '1.1.11';
         var $plugin_url;
         var $plugin_path;
         var $videojs_version = '7.14.3';
@@ -190,6 +190,7 @@ function videojs_html5_video_embed_handler($atts) {
         'muted' => '',
         'poster' => '',
         'class' => '',
+        'theme' => '',
     ), $atts);
     $atts = array_map('sanitize_text_field', $atts);
     extract($atts);
@@ -252,6 +253,12 @@ function videojs_html5_video_embed_handler($atts) {
     if(!empty($poster)) {
         $poster = ' poster="'.esc_url($poster).'"';
     }
+    //theme
+    $videojs_theme = '';
+    $videojs_theme = apply_filters('videojs_html5_player_theme', $theme, $atts);
+    if(!empty($videojs_theme)){
+        $class = $class.' '.$videojs_theme;
+    }
     //playsinline
     $playsinline = ' playsinline';
     $id = uniqid();
@@ -270,7 +277,7 @@ EOT;
         
     }
     $output = <<<EOT
-    <video-js id="{$esc_attr($player)}" class="vjs-big-play-centered"{$controls}{$preload}{$autoplay}{$loop}{$muted}{$poster}{$playsinline} data-setup='{"fluid": true}'>
+    <video-js id="{$esc_attr($player)}" class="vjs-big-play-centered{$class}"{$controls}{$preload}{$autoplay}{$loop}{$muted}{$poster}{$playsinline} data-setup='{"fluid": true}'>
         $src
     </video-js>
     $style       
