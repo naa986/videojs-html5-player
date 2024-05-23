@@ -4,7 +4,7 @@ Donate link: https://wphowto.net/
 Tags: videojs, video, player, embed, html5
 Requires at least: 4.2
 Tested up to: 6.5
-Stable tag: 1.1.11
+Stable tag: 1.1.12
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -135,6 +135,9 @@ Video.js is a web video player built from the ground up for an HTML5 world. It s
 none
 
 == Changelog ==
+
+= 1.1.12 =
+* Some improvements in security reported by Wordfence.
 
 = 1.1.11 =
 * Added support for Themes add-on.
