@@ -3,10 +3,10 @@ Contributors: naa986
 Donate link: https://wphowto.net/
 Tags: videojs, video, player, embed, html5
 Requires at least: 4.2
-Tested up to: 6.5
+Tested up to: 6.6
 Stable tag: 1.1.12
 License: GPLv3 or later
-License URI: http://www.gnu.org/licenses/gpl-3.0.html
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 Embed video file beautifully in WordPress using Video.js HTML5 Player. Embed HTML5 compatible responsive video in your post/page with Video.js.
 
