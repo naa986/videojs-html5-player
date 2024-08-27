@@ -4,7 +4,7 @@ Donate link: https://wphowto.net/
 Tags: videojs, video, player, embed, html5
 Requires at least: 4.2
 Tested up to: 6.6
-Stable tag: 1.1.12
+Stable tag: 1.1.13
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -15,6 +15,11 @@ Embed video file beautifully in WordPress using Video.js HTML5 Player. Embed HTM
 [Video.js HTML5 Player](https://wphowto.net/videojs-html5-player-for-wordpress-757) is a user-friendly plugin that supports video playback on desktop and mobile devices. It makes super easy for you to embed both self-hosted video files or video files that are externally hosted using Video.js library.
 
 https://www.youtube.com/watch?v=uF-V6qGvcu8&rel=0
+
+=== Video.js HTML5 Player Add-ons ===
+
+* [Disable Right Click](https://wphowto.net/videojs-html5-player-for-wordpress-757)
+* [Themes](https://wphowto.net/videojs-player-plugin-themes-7042)
 
 === Video.js HTML5 Player Features ===
 
@@ -28,11 +33,6 @@ https://www.youtube.com/watch?v=uF-V6qGvcu8&rel=0
 * Clean and sleek player with no watermark
 * fallbacks for other HTML5-supported filetypes (WebM, Ogv)
 * HTTP streaming
-
-=== Video.js HTML5 Player Add-ons ===
-
-* [Disable Right Click](https://wphowto.net/videojs-html5-player-for-wordpress-757)
-* [Themes](https://wphowto.net/videojs-player-plugin-themes-7042)
 
 === How to Use Video.js HTML5 Player ===
 
@@ -135,6 +135,9 @@ Video.js is a web video player built from the ground up for an HTML5 world. It s
 none
 
 == Changelog ==
+
+= 1.1.13 =
+* Added an option to conditionally load scripts.
 
 = 1.1.12 =
 * Some improvements in security reported by Wordfence.
